@@ -14,8 +14,9 @@ A, B, C, K = map(int, input().split())
 
 if A >= K:
     ans = K
-elif K-A <= B:
+elif K - A <= B:
     ans = A
 else:
-    ans = A- (K-A-B)
+    ans = A - (K - A - B)
+
 print(ans)
